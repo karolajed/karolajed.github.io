@@ -1,0 +1,22 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #fff;
+  overflow: hidden; }
+  body .navbar {
+    height: 60px; }
+    body .navbar-brand {
+      padding: 0;
+      height: 100%; }
+      body .navbar-brand img {
+        max-height: 170px;
+        height: 100%;
+        width: auto; }
+  body .body {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column; }
+    body .body section {
+      width: 100%;
+      height: calc(100vh - 110px); }
+  body footer {
+    height: 50px; }

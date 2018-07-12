@@ -1,0 +1,49 @@
+.rent {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .rent__title {
+    color: #BBCA00;
+    text-align: center;
+    width: 100%; }
+  .rent__col {
+    width: 95%;
+    padding: 2%;
+    margin: 2.5%;
+    height: 95%;
+    border: 1px dashed #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .rent__col div {
+      width: 100%;
+      height: 100%;
+      z-index: 1000000; }
+    .rent__col .flat {
+      width: 30%;
+      height: auto;
+      margin: 15px;
+      border: 1px dashed #fff; }
+      .rent__col .flat img {
+        width: 100%;
+        filter: brightness(50%); }
+        .rent__col .flat img:hover {
+          filter: brightness(100%); }
+      .rent__col .flat__name {
+        color: #fff;
+        text-align: center;
+        width: 100%; }
+    .rent__col--desc {
+      background-color: rgba(28, 28, 28, 0.5);
+      width: 95%;
+      padding: 2%;
+      margin: 2.5%;
+      height: 95%;
+      border: 1px dashed #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      word-break: break-all; }

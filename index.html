@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+
+  <link rel="stylesheet" href="node_modules/photoswipe/dist/photoswipe.css">
+  <link rel="stylesheet" href="node_modules/photoswipe/dist/default-skin/default-skin.css">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="img/logo_pst.png"/></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li id="menu__main"><a href="#">Strona Główna</a></li>
+          <li id="menu__rent"><a href="#">Wynajem</a></li>
+          <!--          <li id="menu__administration"><a href="#">Zarządzanie</a></li>-->
+          <li id="menu__about"><a href="#">O nas</a></li>
+          <!--          <li id="menu__contact"><a href="#">Kontakt</a></li>-->
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container body">
+    <section id="welcome">
+      <div class="row welcome-info">
+        <h1 class="welcome-info__title"> </h1>
+        <div class="col-md-6 welcome-info__col">
+          <div class="welcome-info__col--text">
+            <h1 class="welcome-info__col--text-h">Apartamenty Centrum</h1>
+            <p>to rodzinne biuro pośrednictwa nieruchomości działające na terenie Krakowa. Zajmujemy się krótko- i długoterminowym wynajmem mieszkań. Oferujemy: - dla właścicieli mieszkań - zarządzanie nieruchomościami oraz pośrednictwo najmu - dla poszukujących lokalu - mieszkania w centrum miasta lub dobrze skomunikowanych punktach Krakowa - dla turystów i pracowników sezonowych - apartamenty na doby (głównie zlokalizowane w centrum) Nasza firma powstała z myślą o profesjonalnej pomocy przy transakcjach związanych z wynajmem mieszkań. Mamy bogate doświadczenie, które zbudowaliśmy obsługując własne nieruchomości, a także wynajmując mieszkania naszych klientów.
+            </p>
+          </div>
+          <button id="flats" class="welcome-info__col--btn">Mieszkania</button>
+        </div>
+        <div class="col-md-6 welcome-info__col">
+          <div class="welcome-info__col--form">
+            <h1 class="welcome-info__col--form-h">Skontaktuj się z nami
+            </h1>
+            <form action="form-to-email.php" method="post" enctype="text/plain">
+              Imię:<br>
+              <input type="text" name="name"><br> Adres e-mail:<br>
+              <input type="text" name="email"><br>
+              <!--
+              Temat:<br>
+              <input type="text" name="topic"><br>
+-->
+              Treść wiadomości:<br>
+              <textarea name="message" form="form">Treść wiadomości...</textarea>
+              <input id="welcomeFormSubmit" type="submit" value="Send">
+            </form>
+          </div>
+          <button id="formSend" class="welcome-info__col--btn">Wyślij</button>
+        </div>
+      </div>
+    </section>
+    <section id="rent" class="rent">
+      <div class="rent__row row">
+        <h1 class="rent__title">Nasze apartamenty</h1>
+        <div class="col-md-12 rent__col">
+          <div class="flat" id="mieszkanie1"><a href="gallery1.html"><img src="img/mieszkanie1/z2.jpg" /></a>
+            <p class="flat__name">Apartament Babuni</p>
+          </div>
+          <div class="flat" id="mieszkanie2"><a href="gallery2.html"><img src="img/mieszkanie2/z4.jpg" /></a>
+            <p class="flat__name">Apartament Warshauera</p>
+          </div>
+          <div class="flat" id="mieszkanie3"><a href="gallery3.html"><img src="img/mieszkanie3/z5.jpg" /></a>
+            <p class="flat__name">Apartament Kazimierz</p>
+          </div>
+          <div class="flat"><a href=""><img src="" /></a></div>
+          <div class="flat"><a href=""><img src="" /></a></div>
+        </div>
+      </div>
+      <div class="row rent__row">
+        <div class="col-md-12 rent__col--desc"></div>
+      </div>
+    </section>
+    <!--
+    <section id="administration">
+      <div class="row administration">
+        <div class="col-md-12 administration__col"></div>
+      </div>
+    </section>
+-->
+    <section id="about">
+      <div class="row about">
+        <h1 class="about__title">O nas</h1>
+        <div class="col-md-12 about__col">
+          Prowadzimy rodzinną działalność na terenie Krakowa. Dlaczego rodzinny? <br> Pracujemy jako małżenstwo, współpracujemy z grupą profesjonalistów, przyjaciół. <br> To ważne ponieważ nie działamy masowo, ale mamy indywidualne podejście, przyjmujemy zlecenia,<br> którymi jesteśmy w stanie zająć się na wysokim poziomie. <br> Sami posiadamy nieruchomości, a także zarządzamy nieruchomościami od wielu lat, <br> o każde mieszkanie dbamy, jak o swoje własne dlatego współpraca z właścicielami układa się nam bardzo dobrze.<br> Lubimy podróżować, wiemy na co zwrócić uwagę jako turyści, <br> staramy się w miarę możliwości przygotować tak apartament by był jak najbardziej praktyczny<br> dla osób wynajmujących na krótki termin.<br> Potrafimy znaleźć dogodny apartament, dla rodziny, studentów, czy osób pracujących czasowo w naszym mieście.
+        </div>
+      </div>
+
+    </section>
+    <!--
+    <section id="contact">
+      <div class="row contact">
+        <div class="col-md-12 contact__col"></div>
+      </div>
+    </section>
+-->
+  </div>
+  <footer></footer>
+
+
+  <!--  scripts-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Core JS file -->
+  <script src="node_modules/photoswipe/dist/photoswipe.min.js"></script>
+
+  <!-- UI JS file -->
+  <script src="node_modules/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+
+
+  <script src="js/ps.js"></script>
+  <script src="js/rent.js"></script>
+  <script src="js/formSubmit.js"></script>
+  <script src="js/sectionChange.js"></script>
+</body>
+
+</html>
